@@ -1,0 +1,35 @@
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-container {
+  width: 30%;
+  padding: 15px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 12%;
+  align-self: flex-start;
+}
+
+.category-list-items-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 60px 0 0 0;
+  padding: 0;
+}
